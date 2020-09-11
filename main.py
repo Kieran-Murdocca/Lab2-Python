@@ -25,9 +25,8 @@ def getLetterGrade(ng):
   else: 
     return "F"
 
-def run(ng): 
-  ng=input(float(("Enter your CMPSC 131 grade: "))
+def run(): 
+  float(input("Enter your CMPSC 131 grade: "))
   print("Your letter grade for CMPSC 131 is {getLetterGrade(ng)}.")
-  
-if __name__ == "__main__":
-  run()
+  if __name__ == "__main__": 
+    run()
