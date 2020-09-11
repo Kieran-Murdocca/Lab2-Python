@@ -1,0 +1,16 @@
+[[package]]
+category = "main"
+description = "StdLib: Standard Library for Microservices Python Bindings"
+name = "lib"
+optional = false
+python-versions = "*"
+version = "3.0.0"
+
+[metadata]
+content-hash = "6530da8958caf4fce08eb5b5f812f66f399127936afa7ce3642f63b8371dd4d1"
+python-versions = "^3.8"
+
+[metadata.files]
+lib = [
+    {file = "lib-3.0.0.tar.gz", hash = "sha256:0f9d40198aa516ce0d0328e086314996839b6d942d6cace2b7e7cbf9b3e3fb32"},
+]

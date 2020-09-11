@@ -5,7 +5,7 @@
 # Section: 004
 # Breakout: 18
 # Part 2: lab2-python
-#import main
+import lib
 ng=float(input("Enter your CMPSC 131 grade: "))
 def getLetterGrade(ng): 
   if ng >= float(93): print("A")
