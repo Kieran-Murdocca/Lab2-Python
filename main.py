@@ -8,14 +8,15 @@
 #import main
 ng=float(input("Enter your CMPSC 131 grade: "))
 def getLetterGrade(ng): 
-  if ng >= float(93): return "A"
-  elif ng >= float(90): return "A-"
-  elif ng >= float(87): return "B+"
-  elif ng >= float(83): return "B"
-  elif ng >= float(80): return "B-"
-  elif ng >= float(77): return "C+"
-  elif ng >= float(70): return "C"
-  elif ng >= float(60): return "D"
-  else: return "F"
-#print("Your letter grade for CMPSC 131 is " + getLetterGrade(ng) + "."))
-print(getLetterGrade(ng))
+  if ng >= float(93): print("A")
+  elif ng >= float(90): print("A-")
+  elif ng >= float(87): print("B+")
+  elif ng >= float(83): print("B")
+  elif ng >= float(80): print("B-")
+  elif ng >= float(77): print("C+")
+  elif ng >= float(70): print("C")
+  elif ng >= float(60): print("D")
+  else: print("F")
+print("Your letter grade for CMPSC 131 is ") ,getLetterGrade(ng)
+#+ "."))
+#print(getLetterGrade(ng))
